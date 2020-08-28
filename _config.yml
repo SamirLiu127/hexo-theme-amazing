@@ -13,25 +13,25 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: 辣椒の酱
+        title: 隨勛所欲
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url: https://removeif.github.io/
+        url: https://smiliu.xyz/
         # Page cover (og:image) (optional) Default to the Open Graph image or thumbnail of the page
         # You should leave this blank for most of the time
-        image: /img/avatar.png
+        image: /img/og_image.jpg
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 辣椒の酱
+        site_name: 隨勛所欲
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: removeif
+        author: SamirLiu
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: java,技术分享,后端开发,支付框架,数据接口,算法,leetcode
+        description: python,技術分享,機器學習,資料分析,網頁追蹤,廣告追蹤
         # Twitter card type (twitter:card)
         twitter_card:
         # Twitter ID (twitter:creator)
@@ -49,19 +49,19 @@ head:
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title: 辣椒の酱
+        title: 隨勛所欲
         # Page description (optional)
         # You should leave this blank for most of the time
-        description: java,技术分享,后端开发,支付框架,数据接口,算法,leetcode
+        description: python,技術分享,機器學習,資料分析,網頁追蹤,廣告追蹤
         # Page URL (optional)
         # You should leave this blank for most of the time
-        url: https://removeif.github.io/
+        url: https://smiliu.xyz/
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: removeif
+        author: SamirLiu
         # Page images (optional) Default to the Open Graph image or thumbnail of the page
         # You should leave this blank for most of the time
-        image: /img/avatar.png
+        image: /img/og_image.jpg
     # Additional HTML meta tags in an array
     meta:
         # Meta tag specified in <attribute>=<value> style
@@ -73,21 +73,21 @@ head:
 navbar:
     # Naviagtion menu items
     menu:
-        首页: /
-        归档: /archives
-        分类: /categories
-        标签: /tags
-        影音: /media
-        相册: /album
-        友链: /friend
-        碎碎念: /self-talking
-        留言: /message
-        关于: /about
+        首頁: /
+        歸檔: /overview
+        分類: /categories
+        標籤: /tags
+        # 影音: /media
+        # 相册: /album
+        友鏈: /friend
+        # 碎碎念: /self-talking
+        # 留言: /message
+        # 关于: /about
     # Links to be shown on the right of the navigation bar
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/removeif'
+            url: 'https://github.com/SamirLiu127'
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -124,16 +124,16 @@ search:
 # Donate plugin configurations
 donate:
     # Alipay donate button configurations
-    -
+    # -
         # Donation entry name
-        type: alipay
+        # type: alipay
         # Qrcode image URL
-        qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135456.png'
-    -
+        # qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135456.png'
+    # -
         # Donation entry name
-        type: wechat
+        # type: wechat
         # Qrcode image URL
-        qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135550.png'
+        # qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135550.png'
 #    -
 #    -
 #        type: patreon
@@ -154,9 +154,9 @@ donate:
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
-    type: sharejs
+    type: addthis
     # URL to the ShareThis share plugin script
-    install_url: ''
+    install_url: '//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f0c100b1448ead3'
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -182,51 +182,58 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: 辣椒の酱
+        author: 隨勛所欲
         # Title of the author to be shown in the profile widget
-        author_title: 尚未执佩剑，转眼即江湖
+        author_title: 從未如此簡單有趣
         # Author's current location to be shown in the profile widget
-        location: 阿尔及利亚
+        location: Taipei, Taiwan
         # Path or URL to the avatar to be shown in the profile widget
-        avatar: /img/avatar.png
+        avatar: /img/avatar.jpg
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
         gravatar:
         # URL or path for the follow button
-        follow_link: 'https://weibo.com/u/3050419984'
+        follow_link: 'https://facebook.com/100226861444726'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/removeif'
-            Weibo:
-                icon: fab fa-weibo
-                url: 'https://weibo.com/u/3050419984'
+                url: 'https://github.com/SamirLiu127'
+            Facebook:
+                icon: fab fa-facebook
+                url: 'https://facebook.com/100226861444726'
             Email:
                 icon: fa fa-envelope
-                url: 'mailto:removeif@163.com'
-            Next:
-                icon: fab fa-dribbble
-                url: 'https://removeif.github.io/remove.io'
-            RSS:
-                icon: fas fa-rss
-                url: /atom.xml
-        has_hitokoto: true #左边一言开关，true-开，false-关       
+                url: 'mailto:gip24000@gmail.com'
+            # RSS:
+            #     icon: fas fa-rss
+            #     url: /atom.xml
+        has_hitokoto: false #左边一言开关，true-开，false-关       
 
     # Recommendation links widget configurations
     # Table of contents widget configurations
+    # Google AdSense unit configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: adsense
+        # AdSense client ID
+        client_id: 'ca-pub-5811286107404442'
+        # AdSense AD unit ID
+        slot_id: '3400980737'
+    # Friend Link
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: links
+        # Names and URLs of the sites
+        links:
+            H.C. Lab: 'https://chilunhuang.github.io/'
+    # Last Posts
     -
         position: right
         type: latest_comment
-#    -
-#        # Where should the widget be placed, left sidebar or right sidebar
-#        position: left
-#        type: links
-#        # Names and URLs of the sites
-#        links:
-#            Hexo: 'https://hexo.io'
-#            Bulma: 'https://bulma.io'
     # Recent posts widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -248,34 +255,25 @@ widgets:
         position: right
         type: tags
     # Google FeedBurner email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        type: subscribe_email
-        # Hint text under the email input
-        description: 输入邮箱开始订阅，更博后邮件通知！
-        # Feedburner ID
-        feedburner_id: removeifFeedsId
-    # Google AdSense unit configurations
-#    -
-#        # Where should the widget be placed, left sidebar or right sidebar
-#        position: left
-#        type: adsense
-#        # AdSense client ID
-#        client_id: ''
-#        # AdSense AD unit ID
-#        slot_id: ''
-#    - 
-        # position: right
-        # type: notice
-        # contents: 
-        #     1: 2019.8.15 <a href="https://github.com/removeif/hexo-theme-amazing" target="_blank">主题开源</a>
-        #     2: 2020.5.20 添加公告widget
-        #     3: 2020.5.21 公告测试
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: right
+    #     type: subscribe_email
+    #     # Hint text under the email input
+    #     description: 输入邮箱开始订阅，更博后邮件通知！
+    #     # Feedburner ID
+    #     feedburner_id: removeifFeedsId
+    # - 
+    #     position: right
+    #     type: notice
+    #     contents: 
+    #         1: 2019.8.15 <a href="https://github.com/removeif/hexo-theme-amazing" target="_blank">主题开源</a>
+    #         2: 2020.5.20 添加公告widget
+    #         3: 2020.5.21 公告测试
 # Plugin configurations
 plugins:
     # Enable page startup animations
-    animejs: true
+    animejs: false
     # Show the "back to top" button
     back_to_top: true
     # Baidu Analytics plugin settings
@@ -294,6 +292,10 @@ plugins:
     google_analytics:
         # Google Analytics tracking ID
         tracking_id:
+    # Google Tag Manager
+    google_tag_manager:
+        # Google Tag Manager tag ID
+        tag_id: GTM-5M44L8F
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
     hotjar:
@@ -314,28 +316,34 @@ plugins:
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
     # Name or URL template of the JavaScript and/or stylesheet CDN provider
-    cdn: loli
+    cdn: jsdelivr
     # Name or URL template of the webfont CDN provider
-    fontcdn: loli
+    fontcdn: google
     # Name or URL of the fontawesome icon font CDN provider
-    iconcdn: loli
+    iconcdn: fontawesome
     # https://cdn.jsdelivr.net/gh/removeif/removeif.github.io@v1.0.6/json_data/record.json, cdn前缀，对于hexo new page 页面中引用的资源文件不生效，需要手动改，如friend友链页中引用的资源
     my_cdn_pre: #https://cdn.jsdelivr.net/gh/removeif/removeif.github.io@v2.2.1
 
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
+
 comment:
-    type: gitalk
-    language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
-    owner: removeif         # (required) GitHub user name
-    repo: blog_comment          # (required) GitHub repository name
-    client_id: 46a9f3481b46ea0129d8     # (required) OAuth application client id
-    client_secret: 79c7c9cb847e141757d7864453bcbf89f0655b24 # (required) OAuth application client secret
-    admin: ['removeif']
-    create_issue_manually: true
-    distraction_free_mode: false
-    has_hot_recommend: true # 是否有热门推荐
-    has_latest_comment: true #是否有最新评论
+    type: disqus
+    # Disqus shortname
+    shortname: smiliu
+
+# comment:
+#     type: gitalk
+#     language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
+#     owner: removeif         # (required) GitHub user name
+#     repo: blog_comment          # (required) GitHub repository name
+#     client_id: 46a9f3481b46ea0129d8     # (required) OAuth application client id
+#     client_secret: 79c7c9cb847e141757d7864453bcbf89f0655b24 # (required) OAuth application client secret
+#     admin: ['removeif']
+#     create_issue_manually: true
+#     distraction_free_mode: false
+#     has_hot_recommend: true # 是否有热门推荐
+#     has_latest_comment: true #是否有最新评论
 
 # comment:
 #     type: valine
@@ -364,24 +372,24 @@ global_gray: false #true 全局灰色，特定时期可以开启，false-不开�
 
 has_banner: false #首页是否有banner，true-是，false-否，如果配置了热门推荐显示热门推荐，banner配置数据在json_data/banner.json里按照配置格式配置好，至少三条
 
-has_latest_modify_time: true #是否显示最后修改时间 true开启，false-关闭   
+has_latest_modify_time: false #是否显示最后修改时间 true开启，false-关闭   
 
-busuanzi_only_count: false #当上面plugins中busuanzi: true时，此配置busuanzi_only_count为true时，网站不显示不蒜子统计数据，但是会每次统计。false时显示统计数据。
+busuanzi_only_count: true #当上面plugins中busuanzi: true时，此配置busuanzi_only_count为true时，网站不显示不蒜子统计数据，但是会每次统计。false时显示统计数据。
 
 has_copyright: true # 文中是否显示copyright true开启，false-关闭   
 
 # http://sachinchoolur.github.io/lightGallery/docs/api.html 
 lightgallery_is_full: true #图片灯箱是否显示完整的插件(包括放大，分享等)，true-显示，false-显示简洁版
 
-website_start_time: 2018/11/11 00:00:00 #网站运行开始时间,不填不显示
+website_start_time: 2019/11/10 00:00:00 #网站运行开始时间,不填不显示
 
 footer_registered_no: #川ICP备88888888号-8 #备案号
 
-footer_copyright_dsec: © 版权说明：[本网站所有内容均收集于互联网或自己创作,<br />&nbsp;&nbsp;&nbsp;&nbsp;方便于网友与自己学习交流，如有侵权，请<a href="/message" target="_blank">留言</a>，立即处理]<br /> #footer 版权说明 可自由配置
+footer_copyright_dsec: © 版權說明：[本網站所有內容均收集於互聯網或自己創作,<br />&nbsp;&nbsp;&nbsp;&nbsp;方便於網友與自己學習交流，如有侵權，請<a href="/message" target="_blank">留言</a>，立即處理]<br /> #footer 版权说明 可自由配置
 
-has_live_2D_switch: true #live2D开关 true-开 false-关
+has_live_2D_switch: false #live2D开关 true-开 false-关
 
-side_music_netease_id: 2364053447 #侧边栏网易云歌单id
+side_music_netease_id: #2364053447 #侧边栏网易云歌单id
 
 use_pjax: false #是否开启pjax，false-不开启，true-开启，开启后局部更新网页信息，切换页面背景音乐不间断等特性
 

@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "/plugin/google_tag_manager.json",
+    "description": "Google Tag Manager plugin settings\nhttps://tagmanager.google.com",
+    "type": "object",
+    "properties": {
+        "tag_id": {
+            "type": "string",
+            "description": "Google Tag Manager tag ID",
+            "nullable": true
+        }
+    },
+    "required": [
+        "tag_id"
+    ]
+}

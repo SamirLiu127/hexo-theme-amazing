@@ -22,6 +22,9 @@
         "google_analytics": {
             "$ref": "/plugin/google_analytics.json"
         },
+        "google_tag_manager": {
+            "$ref": "/plugin/google_tag_manager.json"
+        },
         "hotjar": {
             "$ref": "/plugin/hotjar.json"
         },

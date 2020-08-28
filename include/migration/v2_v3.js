@@ -88,6 +88,10 @@ module.exports = class extends Migration {
                         result.plugins.google_analytics = result.plugins[name];
                         delete result.plugins[name];
                         break;
+                    case 'google-tag-manager':
+                        result.plugins.google_tag_manager = result.plugins[name];
+                        delete result.plugins[name];
+                        break;
                 }
             }
         }
